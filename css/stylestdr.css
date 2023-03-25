@@ -1,0 +1,83 @@
+.study-section {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0px;
+    margin-bottom: 5em; 
+}
+.study-section li {
+    border: 2px solid #dc56e1;
+    float: left;
+    height: 170px;
+    margin: 0 10px 17px;
+    position: relative;
+    width: 22%;
+    list-style: none;
+}
+.footer{
+    background: #7e297e none repeat scroll 0 0 !important;
+    border-top: 1px solid #eeeeee;
+    font-size: 14px;
+    padding: 10px 0 !important;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    
+    top: 1000px;
+    bottom: 0px;
+    width: 100%;
+    
+  }
+.login_register{
+    display: inline-flex;
+    background: #AB34AB;
+    justify-content: space-between;
+    color:#fff;
+    border-radius: 2px;
+}
+.terms-cond a{
+    color: #fff;
+}
+.copyright{
+    font-size: 1rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.study-section h1 {
+    color: #7e287d;
+    font: bold 28px/22px "Open Sans",Arial,Helvetica,sans-serif;
+    margin-bottom: 29px;
+    margin-top: 5em;
+    text-align: center;
+}
+.study-section ul {
+    width: 100%;
+}
+.studentul {
+    margin: 0;
+    padding: 0;
+}
+.stuvent {
+    padding: 10px;
+}
+.stuvent a {
+    color: #000 !important;
+    display: block;
+    font: 13px/22px "Open Sans",Arial,Helvetica,sans-serif;
+    padding: 1px 0;
+}
+.arr2 img{
+    height:inherit!important;
+    width:inherit!important
+}
+.navbar{
+    background: #7e297e none repeat scroll 0 0 !important;
+    color: #fff!important;
+}
+.navbar a{
+    color: #fcfcfc !important;
+    display: block;
+    font: 13px/22px "Open Sans",Arial,Helvetica,sans-serif;
+    padding: 1px 0;
+}

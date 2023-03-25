@@ -1,2 +1,2 @@
 # myuniversityoption
-University Options Html CSS
+University Options A Template for MyUniverSityOptions Html CSS
