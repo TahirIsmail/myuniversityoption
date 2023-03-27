@@ -5,27 +5,17 @@
     padding: 0px;
     margin-bottom: 5em; 
 }
-.study-section li {
-    border: 2px solid #dc56e1;
-    float: left;
-    height: 170px;
-    margin: 0 10px 17px;
-    position: relative;
-    width: 22%;
-    list-style: none;
-}
+
 .footer{
     background: #7e297e none repeat scroll 0 0 !important;
     border-top: 1px solid #eeeeee;
     font-size: 14px;
     padding: 10px 0 !important;
-    position: relative;
+    
     color: white;
     text-decoration: none;
     
-    top: 1000px;
-    bottom: 0px;
-    width: 100%;
+    
     
   }
 .login_register{
@@ -48,29 +38,10 @@
     color: #7e287d;
     font: bold 28px/22px "Open Sans",Arial,Helvetica,sans-serif;
     margin-bottom: 29px;
-    margin-top: 5em;
+    margin-top: 1em;
     text-align: center;
 }
-.study-section ul {
-    width: 100%;
-}
-.studentul {
-    margin: 0;
-    padding: 0;
-}
-.stuvent {
-    padding: 10px;
-}
-.stuvent a {
-    color: #000 !important;
-    display: block;
-    font: 13px/22px "Open Sans",Arial,Helvetica,sans-serif;
-    padding: 1px 0;
-}
-.arr2 img{
-    height:inherit!important;
-    width:inherit!important
-}
+
 .navbar{
     background: #7e297e none repeat scroll 0 0 !important;
     color: #fff!important;
@@ -80,4 +51,34 @@
     display: block;
     font: 13px/22px "Open Sans",Arial,Helvetica,sans-serif;
     padding: 1px 0;
+}
+.std-r1 a{
+    color: #000 !important;
+    display: block;
+    font: 13px/22px "Open Sans",Arial,Helvetica,sans-serif;
+    padding: 1px 0;
+}
+.arr2 {
+    bottom: -17px;
+    display: inline-table;
+    margin-left: 91px;
+    position: absolute;
+    float: left;
+    
+}
+.arr3 {
+    position: absolute;
+    left: -17px;
+    top: 39%;
+}
+.r-one-c-four{
+    padding:0px 0px;
+}
+.arr1 {
+    position: absolute;
+    right: -17px;
+    top: 39%;
+}
+.std-r1 a:not([data-attr="img"]){
+    border:2px solid #dc56e1!important;
 }
