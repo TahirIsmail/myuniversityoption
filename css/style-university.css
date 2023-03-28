@@ -1,0 +1,79 @@
+
+.footer{
+    background: #7e297e none repeat scroll 0 0 !important;
+    border-top: 1px solid #eeeeee;
+    font-size: 14px;
+    padding: 10px 0 !important;
+    
+    color: white;
+    text-decoration: none;
+    
+    
+    
+  }
+.login_register{
+    display: inline-flex;
+    background: #AB34AB;
+    justify-content: space-between;
+    color:#fff;
+    border-radius: 2px;
+}
+.terms-cond a{
+    color: #fff;
+}
+.copyright{
+    font-size: 1rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.navbar{
+    background: #7e297e none repeat scroll 0 0 !important;
+    color: #fff!important;
+}
+.navbar a{
+    color: #fcfcfc !important;
+    display: block;
+    font: 13px/22px "Open Sans",Arial,Helvetica,sans-serif;
+    padding: 1px 0;
+}
+
+.uni_verty{
+    background: #7e287d none repeat scroll 0 0;
+    
+}
+.vie_al {
+    float: right;
+}
+.img2 {
+    height: 100px;
+    margin-bottom: 10px;
+    width: 100% !important;
+}
+.img1{
+    height: 64px;
+    width: 64px;
+    
+}
+img .img2{
+    width: 200px;
+    height: 100px;
+    margin:0px 0px 10px;
+}
+.item{
+    
+        background: #fff none repeat scroll 0 0;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        color: #fff;
+        margin: 10px 8px;
+        height: 250px;
+        padding: 10px 12px 30px;
+    
+}
+.headding_men{
+    color: #3c3c3c !important;
+    font-size: 13px !important;
+    font-weight: bold;
+    margin-top: 10px;
+}
