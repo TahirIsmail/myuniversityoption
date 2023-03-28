@@ -1,0 +1,85 @@
+.footer{
+    background: #7e297e none repeat scroll 0 0 !important;
+    border-top: 1px solid #eeeeee;
+    font-size: 14px;
+    padding: 10px 0 !important;
+    
+    color: white;
+    text-decoration: none;
+    
+    
+    
+  }
+.login_register{
+    display: inline-flex;
+    background: #AB34AB;
+    justify-content: space-between;
+    color:#fff;
+    border-radius: 2px;
+}
+.terms-cond a{
+    color: #fff;
+}
+.copyright{
+    font-size: 1rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.navbar{
+    background: #7e297e none repeat scroll 0 0 !important;
+    color: #fff!important;
+}
+.navbar a{
+    color: #fcfcfc !important;
+    display: block;
+    font: 13px/22px "Open Sans",Arial,Helvetica,sans-serif;
+    padding: 1px 0;
+}
+.k2FeedIcon a{
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    background: url('../images/feed.png') no-repeat 50% 50%;
+}
+div.k2FeedIcon {
+    padding: 4px 8px;
+}
+.credibility img{
+    width: 331px!important;
+    height: 350px!important;
+}
+.footer h6 a:not(.btn) {
+    color: #ffffff;
+}
+.catItemTitle a:not(.btn){
+    color: #7e287d;
+}
+h3.catItemTitle {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 110%;
+    padding: 0;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+.catItemIntroText{
+    font-size: inherit;
+    font-weight: normal;
+    line-height: inherit;
+    padding: 4px 0 12px 0;
+
+}
+.catItemIntroText h5{
+    font-family: 'Open Sans';
+
+}
+.catItemReadMore .readmore {
+    background: #ab34ab none repeat scroll 0 0;
+    color: #fff;
+    padding: 13px 38px;
+}
+
