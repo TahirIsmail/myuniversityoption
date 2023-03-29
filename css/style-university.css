@@ -1,4 +1,9 @@
-
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+  
+  }
 .footer{
     background: #7e297e none repeat scroll 0 0 !important;
     border-top: 1px solid #eeeeee;
@@ -76,4 +81,7 @@ img .img2{
     font-size: 13px !important;
     font-weight: bold;
     margin-top: 10px;
+}
+.icons{
+    color:#ab34ab;
 }

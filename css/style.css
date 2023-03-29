@@ -34,7 +34,6 @@
   background: #fff;
 }
 .navbar-light .navbar-brand {
-  /* color: rgba(0,0,0,.9); */
   color: #AB34AB;
 }
 .slide_header_left h1{
@@ -317,7 +316,10 @@ a{
   overflow-clip-margin: content-box;
   overflow: clip;
 }
-
+.input1 {
+  position: relative !important;
+  left: 100px !important
+}
 button:hover{
     color: #fff !important;
     text-shadow: none;
@@ -329,4 +331,22 @@ button:hover{
   border-radius: 50%;
   height: 200px;
   width: 200px;
+}
+.icons{
+  color:#ab34ab;
+}
+.quick_search img{
+
+  
+    position: relative;
+    right: 5px;
+
+
+}
+.quick_search {
+  
+    position: relative;
+    left: 15px;
+    top: 10px;
+
 }

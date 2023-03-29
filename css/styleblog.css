@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+  
+  }
 .footer{
     background: #7e297e none repeat scroll 0 0 !important;
     border-top: 1px solid #eeeeee;
@@ -83,3 +89,6 @@ h3.catItemTitle {
     padding: 13px 38px;
 }
 
+.icons{
+    color:#ab34ab;
+}
