@@ -60,16 +60,51 @@
   color: #ab34ab;
 }
 .lock-nav {
-  width: 80%;
-  background-color: #ab34ab;
-  color: #fff;
-  position: relative;
-  margin: 4px 0px 4px 0px;
-  left: 75px;
-  border-radius: 3px;
+    width: 100%;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ab34ab;
+    color: #fff;
+    border-radius: 3px;
+}
+body a:not(.btn) {
+  color: #7e287d;
+}
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
+.text-note {
+  color: #555 !important;
+}
+.profile-selected {
+  padding: 10px;
+  border: 1px solid #d7d7d7;
+  color: #666;
+  background: #f2f2f2;
+  margin-bottom: 15px;
+  margin-top:20px;
+}
+.form-label{
+  font-size: 12px;
+  font-weight: bold;
+}
+legend{
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
 }
 p {
 	color: grey;
+}
+
+#heading {
+	text-transform: uppercase;
+	color: #ab34ab;
+	font-weight: normal;
 }
 
 #msform {
@@ -138,7 +173,7 @@ p {
 }
 
 #msform .action-button:hover, #msform .action-button:focus {
-    background-color: #311B92;
+    background-color: #ab34ab;
 }
 
 /*Previous Buttons*/

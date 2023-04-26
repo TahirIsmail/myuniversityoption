@@ -85,9 +85,7 @@
     right: -17px;
     top: 39%;
 }
-.std-r1 a:not([data-attr="img"]){
-    border:2px solid #dc56e1!important;
-}
+
 .icons{
     color:#ab34ab ;
 }
