@@ -111,18 +111,191 @@
                             </div> 
                             
                           </div>
+                          <div class="help-block text-note">
+                            <strong>Note:</strong> Please enter your name.	</div>
+                        </div>
+                        <div class="container">
+                            <div class="form-row">
+                                <div class="col-3">
+                                    <span class="text-danger">*</span><label class="form-label"for="usrname">Username:</label>
+            
+                                </div>
+                                <div class="col-9">
+                                  <input type="text" class="form-control form-control-sm" name="username"placeholder="username">
+                                </div>
+                                
+                                
+                              </div>
+                              <div class="help-block text-note">
+                                <strong>Note:</strong> Please enter your user name.	</div>
+                        </div>
+                        <div class="container">
+                            <div class="form-row">
+                                <div class="col-4">
+                                    <span class="text-danger">*</span><label class="form-label"for="password">Password:</label>
+            
+                                </div>
+                                <div class="col-4">
+                                    <input type="text" class="form-control form-control-sm" name="password"placeholder="password">
+                                  </div>
+                                <div class="col-4">
+                                    <input type="text" class="form-control form-control-sm" name="cnf_password"placeholder="confirm password">
+                                    
+                                </div>
+                                
+                              </div>
+                              <div class="help-block text-note">
+                                <strong>Note:</strong> Please enter your password.	</div>
+                        </div>
+                        <div class="container">
+                            <div class="form-row">
+                                <div class="col-4">
+                                    <span class="text-danger">*</span><label class="form-label"for="email">Email:</label>
+            
+                                </div>
+                                <div class="col-8">
+                                    <input type="text" class="form-control form-control-sm" name="email" placeholder="Email">
+                                  </div>
+                               
+                                
+                              </div>
+                              <div class="help-block text-note">
+                                <strong>Note:</strong> Please enter your email.	</div>
+                        </div>
+                        <div class="container">
+                            <div class="form-row">
+                                <div class="col-4">
+                                    <label class="form-label"for="timezone">Timezone:</label>
+            
+                                </div>
+                                <div class="col-8">
+                                    <select class="form-control form-control-sm" placeholder="timezone">
+
+                                    </select>
+                                  </div>
+                               
+                                
+                              </div>
+                              <div class="help-block text-note">
+                                <strong>Note:</strong> What is your current timezone?	</div>
+                        </div>
+                        <div class="container">
+                            <div class="form-row">
+                                <div class="col-4">
+                                    <label class="form-label"for="profile_permalink">Profile Permalink:</label>
+            
+                                </div>
+                                <div class="col-8">
+                                    <input class="form-control form-control-sm" type="text" placeholder="your-name"/>
+
+                                    
+                                  </div>
+                               
+                                
+                              </div>
+                              <div class="help-block text-note">
+                                <strong>Note:</strong> Give your own profile a unique link.	</div>
                         </div>
                 </div>
                 
-                  <div class="help-block text-note">
-                    <strong>Note:</strong> Please enter your name.	</div>
+                <div class="es-field-header">
+                    <legend>Details</legend>
+                        <hr>
+                        <p>Tell us more about yourself, we are eager to get to know you better!</p>
+                        <div class="container">
+                            <div class="form-row">
+                                <div class="col-4">
+                                    <span class="text-danger">*</span><label class="form-label"for="gender">Gender:</label>
+            
+                                </div>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" value="male">Male
+                                    </label>
+                                  </div>
+                                  <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" value="female">Female
+                                    </label>
+                                  </div>
+                               
+                                
+                              </div>
+                              <div class="help-block text-note">
+                                <strong>Note:</strong> Please enter your gender.	</div>
+                        </div>
+                        <div class="container">
+                            <div class="form-row">
+                                <div class="col-4">
+                                   <label class="form-label"for="email">Birthday:</label>
+            
+                                </div>
+                                <div class="col-8">
+                                    <input type="date" class="form-control form-control-sm" name="birthday" placeholder="birthday">
+                                  </div>
+                               
+                                
+                              </div>
+                              <div class="help-block text-note">
+                                <strong>Note:</strong> Let us remember and celebrate your birthday with you.</div>
+                        </div>
+                        <div class="container">
+                            <div class="form-row">
+                                <div class="col-4">
+                                   <label class="form-label" for="Address">Address:</label>
+            
+                                </div>
+                                <div class="col-8">
+                                    <button type="button" class="btn btn-secondary" onclick="getLocation()">Detect</button>
+                                    <p id="demo"></p>
+                                </div>
+                               
+                                
+                              </div>
+                              <div class="help-block text-note">
+                                <strong>Note:</strong> Let us know where you are currently located
+                              </div>
+                        </div>
+                        <div class="container">
+                            <div class="form-row">
+                                <div class="col-4">
+                                    <span class="text-danger">*</span><label class="form-label"for="mobile">Mobile Number:</label>
+            
+                                </div>
+                                <div class="col-8">
+                                    <input type="text" class="form-control form-control-sm" name="mobile" placeholder="Example: +12345678">
+                                  </div>
+                               
+                                
+                              </div>
+                              <div class="help-block text-note">
+                                <strong>Note:</strong> Set your contact number so that we are able to get in touch with you	</div>
+                        </div>
+                        <div class="container">
+                            <div class="form-row">
+                                <div class="col-4">
+                                    <span class="text-danger">*</span><label class="form-label"for="website">Website:</label>
+            
+                                </div>
+                                <div class="col-8">
+                                    <input type="text" class="form-control form-control-sm" name="website" placeholder="http://yoursite.com">
+                                  </div>
+                               
+                                
+                              </div>
+                              <div class="help-block text-note">
+                                <strong>Note:</strong>  Do you have your own web site?	</div>
+                        </div>
+                        <h6 class="ml-20">Fields marked with an asterisk (<span class="text-danger">*</span>) are required.</h6>
+                    </div> 
                   
                
             </div>
+            <div class="form-actions mt-15">
+                <button class="btn btn-es-primary btn-medium float-right continue-btn" data-registration-submit="">Continue</button>
+            </div>
         </div>
-        <div class="container-fluid">
-            
-        </div>
+        
 
         <footer class="container-fluid footer">
             <div class="row">
@@ -144,6 +317,7 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"
         integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+        <script src="js/timezones.full.min.js"></script>
     <script src="fontawesome\js\all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -152,6 +326,30 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <script src="js/profile_form.js"></script>
+    <script>
+        var x = document.getElementById("demo");
+    
+    function getLocation() {
+        
+        if (navigator.geolocation) {
+            
+            navigator.geolocation.watchPosition(showPosition);
+        } else { 
+            x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+    }
+        
+    function showPosition(position) {
+                    x.innerHTML="Latitude: " + position.coords.latitude + 
+                    "<br>Longitude: " + position.coords.longitude;
+                }
+    </script>
+<script>
+    $(function(){
+        $('select').timezones();
+    });
+    
+</script>
 
 </body>
 
