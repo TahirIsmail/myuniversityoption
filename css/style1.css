@@ -7,33 +7,33 @@
 header{
    background-color: #fff;
 }
+.bg-light {
+    background-color: #fff!important;
+}
 .auth-tags{
     background: #80287e;
     color:#fff;
     height: 25px;
     border-radius: 20px;
-    padding:0px 4px;
+    padding: 0px 6px;
 }
 .header_section
 {
     width: 100%;
     height: 100vh;
-    background-image: url('../images/originalphotos/136/3/citysstreet.jpg');
+    background-image: url('../images/university/main-top-bg.png');
     background-repeat: no-repeat;
 }
-.top_header{
-    display: flex;
-    justify-content: space-between;
-}
+
 .top_text, .second_text
 {
-    background: gray;
+    background: rgb(19, 19, 19);
     opacity: .6;
     padding: 15px 20px; 
     color:#fff;
 }
 .high{
-    background: gray;
+    background: rgb(12, 12, 12);
     opacity: .8;
     color:#fff;
     padding:0 10px;
