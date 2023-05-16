@@ -37,11 +37,46 @@
                 </span>
             </div>
             <div class="auth-tags">
-                <span>Login</span><span>/Register</span>
+                <span><a data-toggle="modal" data-target="#exampleModal">
+                  Login
+                </a></span><span>/<a class="user-profiles" href="user-profiles.html">Register</a></span>
             </div>
         </div>
       </div>
+      
 
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-lg-6 mt-4">
+                    <input type="text" id="username" class="form-control" placeholder="username">
+                </div>
+                <div class="col-sm-12 col-lg-6 mt-4">
+                  <input type="text" id="password" class="form-control" placeholder="password">
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+      
       <header class="container-fluid">
 
     <div class="container-fluid">
@@ -355,6 +390,7 @@
         </div>
       </div>
     </div>
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>

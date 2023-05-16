@@ -7,8 +7,40 @@
 header{
    background-color: #fff;
 }
+.user-profiles{
+    text-decoration: none;
+    color:#fff;
+}
+.user-profiles:hover{
+    color:white;
+    text-decoration: none;
+}
 .bg-light {
     background-color: #fff!important;
+}
+
+.modal-header{
+    background: #741479;
+    color: #fff;
+}
+.modal-body{
+    background: #741479;
+    color: #fff;
+}
+.modal-footer{
+    background: #741479;
+    color: #fff;
+}
+.login-btn{
+    background: #af3eaf none repeat scroll 0 0 !important;
+    color: #fff !important;
+    float:left !important;
+    position: relative;
+    left: 413px;
+    padding: 5px;
+    border-radius: 20px;
+    border-color: #fff;
+    top: 8px;
 }
 .auth-tags{
     background: #80287e;
